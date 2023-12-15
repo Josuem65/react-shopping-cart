@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://josuem65.github.io/react-shopping-cart",
+  "homepage": "http://josuem65.github.io/react-shopping-cart",
   "eslintConfig": {
     "extends": [
       "react-app",
