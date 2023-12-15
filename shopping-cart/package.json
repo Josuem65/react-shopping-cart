@@ -17,14 +17,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"json-server --watch -p 3001 db.json\" \"react-scripts start\"",
+    "start": "concurrently \"json-server --watch -p 3001 db.json\" \"react-scripts --openssl-legacy-provider start\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://josuem65.github.io/react-shopping-cart",
+  "homepage": "https://josuem65.github.io/react-shopping-cart",
   "eslintConfig": {
     "extends": [
       "react-app",
